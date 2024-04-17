@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "types": ["vite/client", "vitest", "node","pickle-js"]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "extends": "./tsconfig.base.json"
+}
